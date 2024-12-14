@@ -1,0 +1,126 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styles */
+body {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background: #000; /* Black background for header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+header nav a {
+    color: #fff; /* White text for navigation links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #777; /* Grey on hover */
+}
+
+/* Hero Section */
+#hero {
+    height: 100vh;
+    background: #f9f9f9; /* Light grey background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000;
+    padding: 20px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #000; /* Black text */
+}
+
+#hero p {
+    font-size: 1.2rem;
+    color: #333; /* Dark grey text */
+}
+
+/* Section Styles */
+section {
+    padding: 50px 20px;
+    background: #fff; /* White background */
+    border-top: 1px solid #ddd; /* Light grey border between sections */
+    margin-top: 60px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #000; /* Black text */
+    text-transform: uppercase;
+}
+
+p, ul {
+    font-size: 1.1rem;
+    margin: 10px auto;
+    max-width: 800px;
+    color: #333; /* Dark grey text */
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 10px 0;
+    color: #000; /* Black text for list items */
+}
+
+/* Portfolio Items */
+.portfolio-item {
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background: #f9f9f9; /* Light grey background for portfolio blocks */
+    color: #000;
+}
+
+/* Footer */
+footer {
+    background: #000; /* Black footer background */
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #ccc; /* Light grey text */
+}
